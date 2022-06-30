@@ -275,8 +275,12 @@ ul {
 		0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
+
 .work-card {
 	text-align: center;
+}
+.work-link {
+	text-decoration: none;
 }
 
 .work-link {
