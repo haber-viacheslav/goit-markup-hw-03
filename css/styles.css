@@ -203,7 +203,6 @@ body {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-
 .footer-menu .address-link:hover,
 .footer-menu .address-link:focus,
 .footer-menu .street-address:hover,
@@ -242,6 +241,10 @@ body {
 
 .work-card {
 	text-align: center;
+}
+
+.work-link {
+	text-decoration: none;
 }
 
 .work-card .work-card-title {
