@@ -379,7 +379,6 @@ ul {
 
 .work-card {
 	flex-basis: calc((100% - 60px) / 3);
-	outline: 2px solid var(--prime-color);
 }
 
 .work-card:not(:nth-child(3n)) {
