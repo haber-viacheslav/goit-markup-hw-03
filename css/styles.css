@@ -17,7 +17,7 @@ body {
 	color: var(--prime-color);
 }
 
-	/* reset */
+/* reset */
 
 h1,
 h2,
@@ -31,17 +31,17 @@ ul {
 	padding: 0;
 }
 
-
-	/* Wrappers */
+/* Wrappers */
 
 .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
-.section.no-top-padding{
+.section.no-top-padding {
 	padding-top: 0;
 }
+
 .container {
 	width: 1200px;
 	margin-right: auto;
@@ -52,14 +52,14 @@ ul {
 
 .flex-container {
 	display: flex;
-	align-items: center;	
+	align-items: center;
 }
-	/* Header */
+/* Header */
 
 .page-header {
 	border-bottom: 1px solid #ececec;
 }
-	/* Logo */
+/* Logo */
 .logo-title {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -74,7 +74,7 @@ ul {
 	color: var(--active-color);
 }
 
-	/* Navigation */
+/* Navigation */
 
 .nav-menu,
 .address-menu {
@@ -94,19 +94,18 @@ ul {
 .address-menu {
 	margin-left: auto;
 }
-	/* Methods for selecting elements for cleaning extreme geometry */
-	/*  */
+/* Methods for selecting elements for cleaning extreme geometry */
+/*  */
 
 .nav-item:not(:last-child) {
 	margin-right: 50px;
 }
 
-	/* .nav-item + .nav-item {
+/* .nav-item + .nav-item {
 		margin-left: 50px;
 	} */
 
-
-	/* .nav-item:last-child {
+/* .nav-item:last-child {
 		margin-right: 0;
 	} */
 
@@ -141,7 +140,7 @@ ul {
 	color: var(--active-color);
 }
 
-	/* Solutions section */
+/* Solutions section */
 
 .solutions {
 	padding-top: 200px;
@@ -151,7 +150,7 @@ ul {
 }
 
 .solutions .solutions-title {
-	padding-left:  250px;
+	padding-left: 250px;
 	padding-right: 250px;
 	margin-bottom: 30px;
 	font-weight: 900;
@@ -184,7 +183,7 @@ ul {
 .solutions .solutions-btn:focus {
 	background-color: #188ce8;
 }
-	/* Peculiarities section */
+/* Peculiarities section */
 
 .peculiarities-items {
 	display: flex;
@@ -218,7 +217,7 @@ ul {
 	color: var(--grey-text);
 }
 
-	/* Doing section */
+/* Doing section */
 
 .doing .doing-title,
 .team .team-title {
@@ -242,11 +241,9 @@ ul {
 .doing .doing-item:not(:last-child),
 .team .team-member:not(:last-child) {
 	margin-right: 30px;
-} 
+}
 
-
-
-	/* Our Team section */
+/* Our Team section */
 
 .team {
 	background-color: var(--second-bg-color);
@@ -281,7 +278,7 @@ ul {
 	color: var(--grey-text);
 }
 
-	/* Footer */
+/* Footer */
 
 .footer-menu {
 	padding-top: 60px;
@@ -307,7 +304,6 @@ ul {
 
 .footer-address {
 	list-style: none;
-
 }
 
 .footer-item:not(:last-child) {
@@ -328,16 +324,15 @@ ul {
 .footer-menu .street-address:focus {
 	color: var(--active-color);
 }
-	/* Portfolio page and section */
+/* Portfolio page and section */
 
-	/* Filter buttons */
+/* Filter buttons */
 .work-btn-list {
 	margin-bottom: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-	
 }
 
 .work-btn-item:not(:last-child) {
@@ -358,8 +353,6 @@ ul {
 	cursor: pointer;
 }
 
-
-
 .active-btn {
 	color: var(--prime-white);
 	background-color: var(--active-color);
@@ -373,7 +366,7 @@ ul {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 		0px 2px 2px rgba(0, 0, 0, 0.1);
 }
-	/* Cards */
+/* Cards */
 .work-cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -396,7 +389,6 @@ ul {
 .work-img {
 	display: block;
 }
-
 
 .work-card .work-card-title {
 	display: inline-block;
