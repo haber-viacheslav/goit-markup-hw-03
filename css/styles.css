@@ -31,6 +31,10 @@ ul {
 	padding: 0;
 }
 
+img {
+	display: block;
+}
+
 /* Wrappers */
 
 .section {
@@ -103,7 +107,7 @@ ul {
 	letter-spacing: 0.02em;
 }
 
-.nav-menu {
+.navigation {
 	margin-left: 93px;
 }
 
@@ -148,7 +152,7 @@ ul {
 	color: var(--grey-text);
 }
 
-.address-item:not(:first-child) {
+.address-item:last-child {
 	margin-left: 50px;
 }
 
@@ -167,9 +171,10 @@ ul {
 }
 
 .solutions .solutions-title {
-	padding-left: 250px;
-	padding-right: 250px;
+	max-width: 696px;
 	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -212,7 +217,6 @@ ul {
 
 .peculiarities-item {
 	flex-basis: calc((100% - 90px) / 4);
-	padding-right: 20px;
 }
 
 .peculiarities-item:not(:last-child) {
@@ -230,6 +234,7 @@ ul {
 }
 
 .peculiarities .peculiarities-descr {
+	max-width: 250px;
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--grey-text);
@@ -244,10 +249,6 @@ ul {
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
-}
-
-.img-no-gap {
-	display: block;
 }
 
 .doing .doing-items,
@@ -267,20 +268,19 @@ ul {
 	background-color: var(--second-bg-color);
 }
 
+.team .team-members {
+	text-align: center;
+}
+
 .team .team-member {
-	padding-bottom: 30px;
 	background-color: var(--prime-white);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
 
-.member-photo {
-	margin-bottom: 30px;
-}
-
-.team .team-members {
-	text-align: center;
+.member-content {
+	padding: 30px;
 }
 
 .team .member-title {
@@ -426,7 +426,6 @@ ul {
 }
 
 .work-card .work-card-title {
-	display: inline-block;
 	margin-bottom: 4px;
 	font-weight: 700;
 	font-size: 18px;
